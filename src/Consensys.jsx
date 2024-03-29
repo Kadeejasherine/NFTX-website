@@ -12,7 +12,6 @@ import { hideloader } from "./Cons";
 
 
 
-import { Pagination } from 'swiper/modules';
 
 function Consensys() {
 
@@ -73,7 +72,7 @@ function Consensys() {
       {hoveredCard !== null && (
   <div id="fixed-img">
     <img src={services[hoveredCard].imageSrc} alt="Service" style={{ borderTopLeftRadius: '10px', borderTopRightRadius: "10px", height: "250px", width: '100%' }} />
-    {/* Use a class to control the visibility of the description */}
+    
     <p className="description" style={{ marginTop: '5px', margin: "10px" }}>{services[hoveredCard].description}</p>
   </div>
 )}
